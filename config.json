@@ -16,25 +16,25 @@
   ],
   "pen": {
     "color": "#FF3B30",
-    "width": 4,
+    "width": 1,
     "opacity": 1.0
   },
   "box": {
-    "color": "#FFCC00",
-    "border_width": 1,
+    "color": "#FF3B30",
+    "border_width": 3,
     "opacity": 1.0,
     "filled": false,
     "fill_opacity": 0.18
   },
   "text": {
     "color": "#FFFFFF",
-    "size": 8,
+    "size": 45,
     "family": "Segoe UI",
     "bold": true,
     "opacity": 1.0
   },
   "eraser": {
-    "radius": 12
+    "radius": 6
   },
   "toolbar": {
     "visible": false,

@@ -10,7 +10,7 @@
 import logging
 
 from PySide6.QtCore import QPointF, QRectF, Qt
-from PySide6.QtGui import QColor, QFont, QPainter, QPen
+from PySide6.QtGui import QColor, QFont, QPainter, QPen, QIcon, QPixmap
 from PySide6.QtWidgets import QMenu, QWidget
 
 log = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ BUTTONS = [
     ("tool_pen", "✎", "Pen (P)"),
     ("tool_box", "□", "Box (B)"),
     ("tool_text", "T", "Text (T)"),
-    ("tool_eraser", "⌫", "Eraser (E)"),
+    ("tool_eraser", "⊕", "Eraser (E)"),
     ("undo", "↶", "Undo (Ctrl+Z)"),
     ("redo", "↷", "Redo (Ctrl+Y)"),
     ("clear_all", "✕", "Clear all (C)"),
@@ -144,6 +144,14 @@ class ToolbarWidget(QWidget):
         except Exception as exc:
             log.error("Toolbar native styling failed: %s", exc)
 
+    def raise_and_topmost(self):
+        self.raise_()
+        try:
+            from . import windows_api
+            windows_api.ensure_topmost(int(self.winId()))
+        except Exception:
+            pass
+
     # ---------------------------------------------------------------- paint
     def paintEvent(self, event):
         painter = QPainter(self)
@@ -249,7 +257,15 @@ class ToolbarWidget(QWidget):
         color_menu = menu.addMenu("Colour")
         current = controller.active_color()
         for hex_color in colors:
-            action = color_menu.addAction("■ " + hex_color)
+            pixmap = QPixmap(16, 16)
+            pixmap.fill(QColor(hex_color))
+            icon = QIcon(pixmap)
+            
+            label_text = "   "
+            if hex_color.lower() == current.lower():
+                label_text += "✓"
+                
+            action = color_menu.addAction(icon, label_text)
             action.setData(f"color:{hex_color}")
         custom = color_menu.addAction("Custom...")
         custom.setData("color:__custom__")

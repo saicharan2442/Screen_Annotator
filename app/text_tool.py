@@ -91,8 +91,7 @@ class TextInputSession:
         fm = QFontMetricsF(text_font(self.ann))
         cx = self.ann.x + fm.horizontalAdvance(current)
         y = self.ann.y + max(0, len(lines) - 1) * line_h
-        pad = max(4.0, line_h * 0.12)
-        return (cx - 1, y - pad / 2, cx + 3, y + line_h - pad / 2 + line_h * 0.25)
+        return (cx - 1, y, cx + 3, y + fm.height())
 
     # ----------------------------------------------------------- key capture
     def _on_key(self, vk, scan, is_down):

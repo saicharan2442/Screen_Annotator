@@ -323,6 +323,8 @@ class ApplicationController(QObject):
     def _sync_toolbar(self):
         if self.toolbar.isVisible():
             self.toolbar.update()
+            if hasattr(self.toolbar, 'raise_and_topmost'):
+                self.toolbar.raise_and_topmost()
 
     # ------------------------------------------------------------ text input
     def begin_text_input(self, gx, gy):
@@ -370,8 +372,9 @@ class ApplicationController(QObject):
         if key is None:
             return
         if hex_color is None:
+            parent = self.overlays[0] if self.overlays else None
             chosen = QColorDialog.getColor(
-                QColor(self.active_color()), None,
+                QColor(self.active_color()), parent,
                 "Pick annotation colour",
                 QColorDialog.DontUseNativeDialog,
             )
@@ -454,13 +457,13 @@ class ApplicationController(QObject):
     def handle_toolbar_action(self, action):
         if action.startswith("tool_"):
             self.set_tool(action[len("tool_"):])
-            self.toolbar.update()
+            self._sync_toolbar()
         elif action == "undo":
             self.undo()
-            self.toolbar.update()
+            self._sync_toolbar()
         elif action == "redo":
             self.redo()
-            self.toolbar.update()
+            self._sync_toolbar()
         elif action == "clear_all":
             self.clear_all(True)
 
@@ -491,8 +494,18 @@ class ApplicationController(QObject):
     def overlay_released(self, gx, gy):
         self.mouse_down = False
         self.active_tool().on_release(gx, gy)
+        self._sync_toolbar()
 
 
+def _pen_glyph_path():
+    path = QPainterPath()
+    path.moveTo(18, 46)
+    path.lineTo(22, 34)
+    path.lineTo(42, 14)
+    path.lineTo(50, 22)
+    path.lineTo(30, 42)
+    path.lineTo(18, 46)
+    return path
 def _pen_glyph_path():
     path = QPainterPath()
     path.moveTo(18, 46)

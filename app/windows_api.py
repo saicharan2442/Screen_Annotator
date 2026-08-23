@@ -210,3 +210,4 @@ def is_shift_down():
 
 def is_ctrl_down():
     return bool(_user32.GetAsyncKeyState(VK_CONTROL) & 0x8000)
+    return bool(_user32.GetAsyncKeyState(VK_CONTROL) & 0x8000)
