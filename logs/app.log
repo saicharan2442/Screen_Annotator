@@ -4595,3 +4595,154 @@ AttributeError: property 'orientation' of 'ToolbarWidget' object has no setter
 2026-08-24 02:05:02 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
 2026-08-24 02:05:02 INFO    app.hotkeys: Annotation mode hotkeys released
 2026-08-24 02:05:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:05:28 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 02:05:28 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 02:05:28 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 02:05:28 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 02:05:28 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 02:05:28 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 02:05:37 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 02:05:37 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1b014e
+2026-08-24 02:05:37 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:05:37 DEBUG   app.application: Tool selected: pen
+2026-08-24 02:05:37 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x803fc
+2026-08-24 02:05:41 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:05:41 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:05:41 INFO    app.application: Toolbar visibility -> False
+2026-08-24 02:05:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:05:43 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x803fc
+2026-08-24 02:05:43 INFO    app.application: Toolbar visibility -> True
+2026-08-24 02:06:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:09 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-08-24 02:06:10 DEBUG   app.pen_tool: Pen stroke committed (20 points)
+2026-08-24 02:06:11 DEBUG   app.pen_tool: Pen stroke committed (32 points)
+2026-08-24 02:06:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:30 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-08-24 02:06:32 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:32 INFO    app.text_tool: Text input started at (1033, 359)
+2026-08-24 02:06:32 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:34 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:34 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:34 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:34 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:34 INFO    app.text_tool: Text input started at (1079, 409)
+2026-08-24 02:06:34 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:36 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:36 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:36 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:36 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:36 INFO    app.text_tool: Text input started at (1003, 403)
+2026-08-24 02:06:36 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:39 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:39 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:39 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:39 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:39 INFO    app.text_tool: Text input started at (885, 395)
+2026-08-24 02:06:39 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:42 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:42 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:42 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:42 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:42 INFO    app.text_tool: Text input started at (1011, 295)
+2026-08-24 02:06:42 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:45 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:45 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:45 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:45 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:45 INFO    app.text_tool: Text input started at (927, 356)
+2026-08-24 02:06:45 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:06:47 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:47 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:47 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:47 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:47 INFO    app.text_tool: Text input started at (801, 298)
+2026-08-24 02:06:47 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:06:55 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:06:55 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:06:55 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:06:58 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:06:58 INFO    app.text_tool: Text input started at (1107, 349)
+2026-08-24 02:06:58 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:03 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:07:03 INFO    app.text_tool: Text input finished (committed=False)
+2026-08-24 02:07:03 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:07:03 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:07:03 INFO    app.text_tool: Text input started at (1075, 336)
+2026-08-24 02:07:03 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:04 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:07:04 INFO    app.text_tool: Text input finished (committed=False)
+2026-08-24 02:07:04 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:07:04 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:07:04 INFO    app.text_tool: Text input started at (1082, 338)
+2026-08-24 02:07:04 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:08 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:07:08 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:07:08 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:07:08 DEBUG   app.application: Tool selected: eraser
+2026-08-24 02:07:09 DEBUG   app.application: Deleted text annotation d7f473afd63c
+2026-08-24 02:07:12 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:07:12 INFO    app.text_tool: Text input started at (944, 332)
+2026-08-24 02:07:12 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:22 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:07:22 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:07:22 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:07:22 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 02:07:22 INFO    app.text_tool: Text input started at (292, 305)
+2026-08-24 02:07:22 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:33 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 02:07:33 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 02:07:33 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 02:07:33 DEBUG   app.application: Tool selected: eraser
+2026-08-24 02:07:33 DEBUG   app.application: Deleted text annotation a2698de1b304
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation af99ad86dcdb
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation 4badd44cc98a
+2026-08-24 02:07:34 DEBUG   app.application: Deleted pen annotation f84de21f020b
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation 4cf5fb9dc34f
+2026-08-24 02:07:34 DEBUG   app.application: Deleted pen annotation 17870dacd7d4
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation 288c69c5595d
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation df9790599ac8
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation bebcea69e7c8
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation 458891df1e7c
+2026-08-24 02:07:34 DEBUG   app.application: Deleted text annotation f1eb7c42ac17
+2026-08-24 02:07:37 DEBUG   app.application: Deleted pen annotation a8391ba3ff1f
+2026-08-24 02:07:37 DEBUG   app.application: Deleted pen annotation 525deff1f1b6
+2026-08-24 02:07:39 INFO    app.application: Cleared all annotations
+2026-08-24 02:07:41 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:07:41 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 02:07:41 INFO    app.application: Toolbar visibility -> False
+2026-08-24 02:07:47 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 02:07:47 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 02:07:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
