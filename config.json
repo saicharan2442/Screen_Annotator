@@ -1,0 +1,46 @@
+{
+  "hotkeys": {
+    "activate": "ctrl+shift+a",
+    "deactivate": "ctrl+shift+q",
+    "toggle_toolbar": "ctrl+shift+t"
+  },
+  "colors_palette": [
+    "#FF3B30",
+    "#FF9500",
+    "#FFCC00",
+    "#34C759",
+    "#32ADE6",
+    "#007AFF",
+    "#AF52DE",
+    "#FFFFFF"
+  ],
+  "pen": {
+    "color": "#FF3B30",
+    "width": 4,
+    "opacity": 1.0
+  },
+  "box": {
+    "color": "#FFCC00",
+    "border_width": 1,
+    "opacity": 1.0,
+    "filled": false,
+    "fill_opacity": 0.18
+  },
+  "text": {
+    "color": "#FFFFFF",
+    "size": 8,
+    "family": "Segoe UI",
+    "bold": true,
+    "opacity": 1.0
+  },
+  "eraser": {
+    "radius": 12
+  },
+  "toolbar": {
+    "visible": false,
+    "x": 1225,
+    "y": 223,
+    "edge_threshold": 140,
+    "orientation": "vertical"
+  }
+}
