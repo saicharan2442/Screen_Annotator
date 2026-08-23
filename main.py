@@ -18,6 +18,21 @@ Text tool: click, type, Enter = newline, Ctrl+Enter or Esc = done.
 import os
 import sys
 
+def register_startup():
+    """Register the app to run on startup if compiled as a standalone EXE."""
+    if getattr(sys, 'frozen', False):
+        import winreg
+        exe_path = sys.executable
+        key_path = r"Software\Microsoft\Windows\CurrentVersion\Run"
+        app_name = "ScreenAnnotator"
+        
+        try:
+            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, key_path, 0, winreg.KEY_SET_VALUE)
+            winreg.SetValueEx(key, app_name, 0, winreg.REG_SZ, f'"{exe_path}"')
+            winreg.CloseKey(key)
+        except Exception as e:
+            print(f"Failed to add to startup registry: {e}")
+
 
 def main():
     # Must happen before QApplication is constructed.
@@ -45,6 +60,9 @@ def main():
     if sys.platform != "win32":
         logger.error("This application requires Windows.")
         return 1
+
+    # Automatically add to Windows startup if running as EXE
+    register_startup()
 
     app = QApplication(sys.argv)
     app.setApplicationName(APP_NAME)
