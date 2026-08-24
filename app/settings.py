@@ -37,6 +37,8 @@ DEFAULTS = {
         "filled": False,
         "fill_opacity": 0.18,
     },
+    "line": {"color": "#32ADE6", "width": 4, "opacity": 1.0},
+    "arrow": {"color": "#32ADE6", "width": 4, "opacity": 1.0},
     "text": {
         "color": "#FFFFFF",
         "size": 28,

@@ -24,10 +24,13 @@ BUTTONS = [
     ("tool_pen", "✎", "Pen (P)"),
     ("tool_box", "□", "Box (B)"),
     ("tool_text", "T", "Text (T)"),
+    ("tool_line", "╱", "Line (L)"),
+    ("tool_arrow", "↗", "Arrow (A)"),
     ("tool_eraser", "⊕", "Eraser (E)"),
     ("undo", "↶", "Undo (Ctrl+Z)"),
     ("redo", "↷", "Redo (Ctrl+Y)"),
-    ("clear_all", "✕", "Clear all (C)"),
+    ("clear_all", "🗑", "Clear all (C)"),
+    ("close", "✕", "Close (Ctrl+Shift+Q)"),
 ]
 
 BG_COLOR = QColor(30, 30, 32, 225)

@@ -5,8 +5,14 @@ import logging.handlers
 import math
 import os
 
-# Project root (parent of the app/ package directory).
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import sys
+
+if getattr(sys, 'frozen', False):
+    # If running from a PyInstaller executable, save config near the .exe
+    PROJECT_ROOT = os.path.dirname(sys.executable)
+else:
+    # If running from source, save in the project directory
+    PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
 LOG_FILE = os.path.join(LOG_DIR, "app.log")
 

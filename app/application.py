@@ -17,6 +17,7 @@ from . import __version__, windows_api
 from .box_tool import BoxTool
 from .eraser import EraserTool
 from .hotkeys import HotkeyManager
+from .line_tool import LineTool, ArrowTool
 from .move_tool import MoveTool
 from .overlay import OverlayWidget
 from .pen_tool import PenTool
@@ -39,6 +40,8 @@ SIZE_LIMITS = {
     "pen": (1, 48),
     "box": (1, 24),
     "text": (8, 144),
+    "line": (1, 48),
+    "arrow": (1, 48),
     "eraser": (4, 80),
 }
 
@@ -61,12 +64,16 @@ class ApplicationController(QObject):
         self.pen_tool = PenTool(self)
         self.box_tool = BoxTool(self)
         self.text_tool = TextTool(self)
+        self.line_tool = LineTool(self)
+        self.arrow_tool = ArrowTool(self)
         self.eraser_tool = EraserTool(self)
         self.move_tool = MoveTool(self)
         self.tools = {
             "pen": self.pen_tool,
             "box": self.box_tool,
             "text": self.text_tool,
+            "line": self.line_tool,
+            "arrow": self.arrow_tool,
             "eraser": self.eraser_tool,
             "move": self.move_tool,
         }
@@ -355,6 +362,7 @@ class ApplicationController(QObject):
     def _style_section_for_tool(self, tool=None):
         tool = tool or self.tool_name
         mapping = {"pen": "pen", "box": "box", "text": "text",
+                   "line": "line", "arrow": "arrow",
                    "eraser": "eraser"}
         section = mapping.get(tool, "pen")
         if tool == "eraser":
@@ -362,13 +370,13 @@ class ApplicationController(QObject):
         return section
 
     def active_color(self):
-        key = {"pen": "pen", "box": "box", "text": "text"}.get(self.tool_name)
+        key = {"pen": "pen", "box": "box", "text": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
         if key is None:
             key = "pen"
         return self.settings.section(key).get("color", "#FF3B30")
 
     def set_active_color(self, hex_color=None):
-        key = {"pen": "pen", "box": "box", "text": "text"}.get(self.tool_name)
+        key = {"pen": "pen", "box": "box", "text": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
         if key is None:
             return
         if hex_color is None:
@@ -403,6 +411,7 @@ class ApplicationController(QObject):
 
     def active_size_key(self):
         return {"pen": "width", "box": "border_width", "text": "size",
+                "line": "width", "arrow": "width",
                 "eraser": "radius"}.get(self.tool_name, "width")
 
     def active_size_section(self):
@@ -436,6 +445,8 @@ class ApplicationController(QObject):
             "tool_pen": lambda: self.set_tool("pen"),
             "tool_box": lambda: self.set_tool("box"),
             "tool_text": lambda: self.set_tool("text"),
+            "tool_line": lambda: self.set_tool("line"),
+            "tool_arrow": lambda: self.set_tool("arrow"),
             "tool_eraser": lambda: self.set_tool("eraser"),
             "tool_move": lambda: self.set_tool("move"),
             "clear_all": lambda: self.clear_all(True),
@@ -466,6 +477,8 @@ class ApplicationController(QObject):
             self._sync_toolbar()
         elif action == "clear_all":
             self.clear_all(True)
+        elif action == "close":
+            self.deactivate()
 
     def toggle_toolbar_pref(self):
         """Ctrl+Shift+T: toggle toolbar now (or remember choice when inactive)."""

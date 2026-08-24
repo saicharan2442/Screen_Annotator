@@ -5,7 +5,7 @@ import math
 from PySide6.QtCore import QPointF, QRectF, Qt
 from PySide6.QtGui import QColor, QFont, QFontMetricsF, QPainter, QPainterPath, QPen
 
-from .annotations import PenStroke, RectangleAnnotation, TextAnnotation
+from .annotations import PenStroke, RectangleAnnotation, TextAnnotation, LineAnnotation
 
 LINE_HEIGHT_FACTOR = 1.35
 
@@ -49,6 +49,8 @@ def render_annotation(painter: QPainter, ann, selected=False):
     elif isinstance(ann, TextAnnotation):
         refresh_text_bbox(ann)
         _render_text(painter, ann)
+    elif isinstance(ann, LineAnnotation):
+        _render_line(painter, ann)
 
     if selected:
         l, t, r, b = ann.bbox()
@@ -113,6 +115,66 @@ def _render_text(painter, ann: TextAnnotation):
     for line in ann.text.split("\n"):
         painter.drawText(QPointF(ann.x, y + ascent), line)
         y += line_h
+
+
+def _render_line(painter, line: LineAnnotation):
+    import math
+    from PySide6.QtGui import QPolygonF
+    from PySide6.QtGui import QPainterPath
+
+    painter.setOpacity(line.opacity)
+    p1 = QPointF(line.x1, line.y1)
+    p2 = QPointF(line.x2, line.y2)
+    
+    dx = line.x2 - line.x1
+    dy = line.y2 - line.y1
+    angle = math.atan2(dy, dx)
+    length = math.hypot(dx, dy)
+    
+    if line.arrow:
+        if length < 5:
+            return
+            
+        painter.save()
+        painter.translate(p1)
+        painter.rotate(math.degrees(angle))
+        
+        # The exact tapered arrow design from the image
+        shaft_wid = line.width * 2.0
+        head_wid = max(15.0, line.width * 4.5)
+        head_len = max(15.0, line.width * 4.0)
+        
+        # Prevent head from being longer than the line itself
+        if head_len > length:
+            head_len = length
+            shaft_len = 0
+            shaft_wid = 0 # No shaft if it's too short
+        else:
+            shaft_len = length - head_len
+            
+        # Define the 6 points of the solid tapered arrow
+        points = [
+            QPointF(0, 0),                           # Tail sharp point
+            QPointF(shaft_len, shaft_wid / 2),       # Top of shaft before head
+            QPointF(shaft_len, head_wid / 2),        # Top corner of arrowhead
+            QPointF(length, 0),                      # Tip of the arrow
+            QPointF(shaft_len, -head_wid / 2),       # Bottom corner of arrowhead
+            QPointF(shaft_len, -shaft_wid / 2),      # Bottom of shaft before head
+        ]
+        
+        painter.setPen(Qt.NoPen)
+        painter.setBrush(qcolor(line.color, line.opacity))
+        painter.drawPolygon(QPolygonF(points))
+        painter.restore()
+        return
+
+    # Normal line rendering for non-arrows
+    pen = QPen(qcolor(line.color), line.width)
+    pen.setCapStyle(Qt.RoundCap)
+    painter.setPen(pen)
+    painter.setBrush(Qt.NoBrush)
+    painter.drawLine(p1, p2)
+
 
 
 def draw_caret(painter, x, y, height, on, color="#FFFFFF"):

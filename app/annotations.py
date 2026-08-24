@@ -165,6 +165,40 @@ class TextAnnotation(BaseAnnotation):
         return self.contains_point(x, y, pad=tol)
 
 
+class LineAnnotation(BaseAnnotation):
+    kind = "line"
+
+    def __init__(self, x1, y1, x2, y2, color, width, opacity, arrow=False):
+        super().__init__()
+        self.x1, self.y1 = float(x1), float(y1)
+        self.x2, self.y2 = float(x2), float(y2)
+        self.color = color
+        self.width = float(width)
+        self.opacity = float(opacity)
+        self.arrow = bool(arrow)
+        if self.arrow:
+            self.kind = "arrow"
+
+    def compute_bbox(self):
+        l = min(self.x1, self.x2)
+        t = min(self.y1, self.y2)
+        r = max(self.x1, self.x2)
+        b = max(self.y1, self.y2)
+        pad = self.width / 2.0 + (self.width * 3 if self.arrow else 1)
+        return inflate((l, t, r, b), pad)
+
+    def translate(self, dx, dy):
+        self.x1 += dx
+        self.y1 += dy
+        self.x2 += dx
+        self.y2 += dy
+        self.invalidate()
+
+    def hit_test(self, x, y, tol=6.0):
+        limit = self.width / 2.0 + tol
+        return dist_to_segment(x, y, self.x1, self.y1, self.x2, self.y2) <= limit
+
+
 class AnnotationStore:
     """Ordered collection of annotations (bottom -> top z-order)."""
 

@@ -4746,3 +4746,963 @@ AttributeError: property 'orientation' of 'ToolbarWidget' object has no setter
 2026-08-24 02:07:47 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
 2026-08-24 02:07:47 INFO    app.hotkeys: Annotation mode hotkeys released
 2026-08-24 02:07:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 03:04:09 ERROR   annotator: Screen Annotator is already running.
+2026-08-24 22:24:49 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 22:24:49 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 22:24:49 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 22:24:49 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 22:24:49 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 22:24:49 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 22:26:09 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:26:09 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x50966
+2026-08-24 22:26:09 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:26:09 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:26:12 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:12 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:12 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:12 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:14 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x40a24
+2026-08-24 22:26:14 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:26:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:26:25 DEBUG   app.pen_tool: Pen stroke committed (37 points)
+2026-08-24 22:26:31 DEBUG   app.pen_tool: Pen stroke committed (27 points)
+2026-08-24 22:26:33 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:26:33 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:26:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:29:33 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 22:29:33 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 22:29:33 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 22:29:33 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 22:29:33 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 22:29:33 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 22:30:18 ERROR   annotator: Screen Annotator is already running.
+2026-08-24 22:31:34 ERROR   annotator: Screen Annotator is already running.
+2026-08-24 22:32:49 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 22:32:49 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 22:32:49 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 22:32:49 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 22:32:49 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 22:32:49 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 22:32:51 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:32:51 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x300f4
+2026-08-24 22:32:51 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:32:51 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:32:51 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xb0cb0
+2026-08-24 22:32:55 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:32:55 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:32:55 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:32:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:32:58 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xb0cb0
+2026-08-24 22:32:58 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:33:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:03 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:33:04 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:04 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xb0cb0
+2026-08-24 22:33:04 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:33:08 DEBUG   app.pen_tool: Pen stroke committed (41 points)
+2026-08-24 22:33:08 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-08-24 22:33:11 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:33:12 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:13 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:14 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:14 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:16 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:19 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:20 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:21 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:24 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:33:27 INFO    app.application: Cleared all annotations
+2026-08-24 22:33:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:31 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:33:32 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:32 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xb0cb0
+2026-08-24 22:33:32 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:33:39 DEBUG   app.application: Tool selected: line
+2026-08-24 22:33:40 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:41 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:42 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:44 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:45 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:46 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:47 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:47 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:48 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:48 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:48 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:49 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:50 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:51 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:53 DEBUG   app.line_tool: Line committed
+2026-08-24 22:33:55 INFO    app.application: Cleared all annotations
+2026-08-24 22:33:57 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:57 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:57 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:57 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:57 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:33:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:06 DEBUG   app.line_tool: Line committed
+2026-08-24 22:34:11 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:11 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:11 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:34:12 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:12 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xb0cb0
+2026-08-24 22:34:12 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:21 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:34:21 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:34:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:39 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 22:34:39 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 22:34:39 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 22:34:39 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 22:34:39 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 22:34:39 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 22:34:41 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:34:41 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x50a42
+2026-08-24 22:34:41 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:34:41 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:34:41 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:34:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:47 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:34:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:34:49 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:34:49 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:35:01 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:35:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:35:04 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:35:04 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:35:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:35:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:35:07 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:07 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:08 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:08 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:08 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:11 DEBUG   app.undo_redo: Redo add
+2026-08-24 22:35:11 DEBUG   app.undo_redo: Redo add
+2026-08-24 22:35:12 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:12 DEBUG   app.undo_redo: Undo add
+2026-08-24 22:35:22 INFO    app.application: Cleared all annotations
+2026-08-24 22:35:23 DEBUG   app.application: Tool selected: eraser
+2026-08-24 22:35:29 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:35:29 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:35:29 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:38:42 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:38:42 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x50a42
+2026-08-24 22:38:42 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:38:42 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:38:42 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:38:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:38:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:38:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:38:44 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:38:46 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:52 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:53 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:55 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:58 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:58 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:38:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:39:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:39:03 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:39:06 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:39:13 INFO    app.application: Cleared all annotations
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:14 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:16 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:39:19 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 22:39:19 INFO    app.text_tool: Text input started at (726, 303)
+2026-08-24 22:39:19 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:39:51 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 22:39:51 INFO    app.text_tool: Text input finished (committed=True)
+2026-08-24 22:39:51 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:39:53 INFO    app.windows_api: Low-level keyboard hook installed
+2026-08-24 22:39:53 INFO    app.text_tool: Text input started at (523, 201)
+2026-08-24 22:39:53 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:39:55 INFO    app.windows_api: Low-level keyboard hook removed
+2026-08-24 22:39:55 INFO    app.text_tool: Text input finished (committed=False)
+2026-08-24 22:39:55 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:39:56 INFO    app.application: Cleared all annotations
+2026-08-24 22:39:59 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:40:08 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:40:08 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:40:08 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:47:55 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:47:55 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x50a42
+2026-08-24 22:47:55 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:47:55 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:47:55 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:48:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:48:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:48:05 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:48:06 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:48:06 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:48:06 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:49:12 DEBUG   app.pen_tool: Pen stroke committed (14 points)
+2026-08-24 22:49:13 DEBUG   app.pen_tool: Pen stroke committed (36 points)
+2026-08-24 22:49:14 DEBUG   app.pen_tool: Pen stroke committed (21 points)
+2026-08-24 22:49:15 DEBUG   app.pen_tool: Pen stroke committed (31 points)
+2026-08-24 22:49:17 DEBUG   app.pen_tool: Pen stroke committed (25 points)
+2026-08-24 22:49:18 DEBUG   app.pen_tool: Pen stroke committed (18 points)
+2026-08-24 22:49:19 DEBUG   app.pen_tool: Pen stroke committed (57 points)
+2026-08-24 22:49:20 DEBUG   app.pen_tool: Pen stroke committed (33 points)
+2026-08-24 22:49:22 DEBUG   app.pen_tool: Pen stroke committed (39 points)
+2026-08-24 22:49:23 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:49:25 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:28 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:30 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:32 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:35 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:49:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:37 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:37 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:37 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:46 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:49:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:49:47 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140a8e
+2026-08-24 22:49:47 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:50:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:01 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:03 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:11 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:12 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:14 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:16 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:17 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:17 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:18 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:20 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:35 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:50:35 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:50:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:50:56 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 22:50:56 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 22:50:56 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 22:50:56 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 22:50:57 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 22:50:57 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 22:50:59 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:50:59 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x500f4
+2026-08-24 22:50:59 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:50:59 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:50:59 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x70a6e
+2026-08-24 22:51:03 DEBUG   app.pen_tool: Pen stroke committed (14 points)
+2026-08-24 22:51:05 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:51:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:06 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:07 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:08 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:09 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:11 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:13 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:13 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:13 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:13 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:13 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:13 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:15 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:16 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:17 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:18 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:18 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:18 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:19 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:19 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:19 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:19 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:19 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:20 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:21 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:21 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:22 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:22 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:28 INFO    app.application: Toolbar visibility -> False
+2026-08-24 22:51:29 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:29 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x70a6e
+2026-08-24 22:51:29 INFO    app.application: Toolbar visibility -> True
+2026-08-24 22:51:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:40 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:41 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:42 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:43 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:44 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:47 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:50 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:52 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:53 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:57 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:51:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:00 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:01 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:03 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:04 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:07 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:26 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:26 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:27 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:28 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:29 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:30 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:31 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:32 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:33 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:36 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:43 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:43 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:45 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:46 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:46 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:47 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:55 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:52:56 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:57 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:52:58 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:01 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:06 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:07 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:08 INFO    app.application: Cleared all annotations
+2026-08-24 22:53:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:12 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:53:15 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:53:15 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:53:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:58:52 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 22:58:52 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x500f4
+2026-08-24 22:58:52 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 22:58:52 DEBUG   app.application: Tool selected: pen
+2026-08-24 22:58:52 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x70a6e
+2026-08-24 22:59:00 DEBUG   app.pen_tool: Pen stroke committed (2 points)
+2026-08-24 22:59:03 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-08-24 22:59:04 DEBUG   app.application: Tool selected: arrow
+2026-08-24 22:59:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 22:59:18 DEBUG   app.line_tool: Arrow committed
+2026-08-24 22:59:23 INFO    app.application: Cleared all annotations
+2026-08-24 22:59:28 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 22:59:28 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 22:59:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:01:58 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:01:58 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x500f4
+2026-08-24 23:01:58 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:01:58 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:01:58 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x70a6e
+2026-08-24 23:02:00 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:02:08 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:02:10 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:02:10 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:02:10 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:02:20 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:02:20 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:02:20 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:02:20 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:02:20 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:02:20 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:02:22 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:02:22 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x160a8e
+2026-08-24 23:02:22 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:02:22 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:02:22 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x140940
+2026-08-24 23:02:24 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:02:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:02:29 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:02:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:02:43 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:02:51 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:02:54 DEBUG   app.undo_redo: Undo add
+2026-08-24 23:02:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:02:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:04 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:05 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:23 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:03:24 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:25 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:26 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:28 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:29 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:31 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:32 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:36 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:37 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:39 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:41 INFO    app.application: Cleared all annotations
+2026-08-24 23:03:47 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:03:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:50 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:50 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:52 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:55 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:56 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:57 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:03:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:00 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:06 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:07 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:08 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:25 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:04:26 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:38 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:39 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:04:52 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:04:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:05 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:05:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:11 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:12 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:14 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:22 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:05:22 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:26 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:27 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:30 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:33 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:33 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:33 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:33 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:35 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:35 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:05:36 INFO    app.application: Cleared all annotations
+2026-08-24 23:05:41 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:05:41 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:05:41 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:19:13 ERROR   annotator: Screen Annotator is already running.
+2026-08-24 23:20:06 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:20:06 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:20:06 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:20:06 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:20:07 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:20:07 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:20:08 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:20:08 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x180bf2
+2026-08-24 23:20:08 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:20:08 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:20:08 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x150662
+2026-08-24 23:20:10 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:18 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:20:23 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:20:23 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:20:23 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:21:21 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:21:21 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:21:21 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:21:21 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:21:21 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:21:21 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:22:27 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:22:27 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:22:27 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:22:27 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:22:27 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:22:27 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:22:29 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:22:29 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x8083c
+2026-08-24 23:22:29 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:22:29 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:22:29 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1a0bf2
+2026-08-24 23:22:31 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:22:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:51 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:53 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:53 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:53 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:53 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:53 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:53 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:22:54 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:22:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:00 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:06 INFO    app.application: Cleared all annotations
+2026-08-24 23:23:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:11 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:19 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:20 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:20 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:21 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:21 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:30 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:31 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:32 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:42 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:42 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:43 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:44 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:47 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:47 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:51 INFO    app.application: Cleared all annotations
+2026-08-24 23:23:57 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:23:58 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:08 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:10 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:24:13 INFO    app.application: Cleared all annotations
+2026-08-24 23:24:17 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:24:17 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:24:17 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:26:55 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:26:55 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:26:55 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:26:55 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:26:55 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:26:55 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:26:59 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:26:59 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1b0bf2
+2026-08-24 23:26:59 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:26:59 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:26:59 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x190662
+2026-08-24 23:27:01 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:27:06 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:08 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:09 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:16 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:21 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:22 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:22 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:23 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:31 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:27:37 INFO    app.application: Cleared all annotations
+2026-08-24 23:27:39 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:27:39 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:27:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:28:42 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:28:42 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:28:42 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:28:42 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:28:42 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:28:42 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:28:44 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:28:44 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0xc0850
+2026-08-24 23:28:44 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:28:44 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:28:44 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1c0bf2
+2026-08-24 23:28:46 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:28:53 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:28:58 INFO    app.application: Cleared all annotations
+2026-08-24 23:28:59 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:28:59 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:28:59 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:25 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:33:25 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:33:25 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:33:25 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:33:25 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:33:25 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:33:27 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:33:27 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1d0bf2
+2026-08-24 23:33:27 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:33:27 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:33:27 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x10084a
+2026-08-24 23:33:28 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:33:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:35 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:36 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:36 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:38 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:39 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:40 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:41 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:42 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:42 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:43 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:44 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:45 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:46 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:46 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:48 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:49 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:50 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:51 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:51 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:52 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:56 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:57 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:58 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:33:59 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:34:01 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:34:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:01 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:02 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:34:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:03 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:34:06 INFO    app.application: Cleared all annotations
+2026-08-24 23:34:07 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:34:08 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:08 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:08 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:08 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:34:15 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:34:15 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:34:15 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:25 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-24 23:48:25 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-24 23:48:25 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-24 23:48:25 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-24 23:48:25 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-24 23:48:25 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-24 23:48:28 INFO    app.application: Annotation mode ACTIVATED
+2026-08-24 23:48:28 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1f0662
+2026-08-24 23:48:28 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-24 23:48:28 DEBUG   app.application: Tool selected: pen
+2026-08-24 23:48:28 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x1607a6
+2026-08-24 23:48:32 DEBUG   app.application: Tool selected: arrow
+2026-08-24 23:48:32 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:34 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:36 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:37 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:38 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:39 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:42 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:44 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:45 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-24 23:48:46 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:49 DEBUG   app.line_tool: Arrow committed
+2026-08-24 23:48:52 INFO    app.application: Cleared all annotations
+2026-08-24 23:48:56 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-24 23:48:56 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-24 23:48:56 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json

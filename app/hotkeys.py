@@ -81,6 +81,8 @@ MODE_KEYS = {
     "tool_pen": ("p", "Pen tool"),
     "tool_box": ("b", "Box tool"),
     "tool_text": ("t", "Text tool"),
+    "tool_line": ("l", "Line tool"),
+    "tool_arrow": ("a", "Arrow tool"),
     "tool_eraser": ("e", "Eraser tool"),
     "tool_move": ("v", "Select / move"),
     "clear_all": ("c", "Clear all annotations"),

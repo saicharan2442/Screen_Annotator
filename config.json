@@ -26,6 +26,17 @@
     "filled": false,
     "fill_opacity": 0.18
   },
+  "line": {
+    "color": "#32ADE6",
+    "width": 1,
+    "opacity": 1.0
+  },
+  "arrow": {
+    "color": "#FF3B30",
+    "width": 5,
+    "opacity": 1.0,
+    "style": "wavy"
+  },
   "text": {
     "color": "#FFFFFF",
     "size": 45,
@@ -37,9 +48,9 @@
     "radius": 6
   },
   "toolbar": {
-    "visible": false,
-    "x": 1225,
-    "y": 223,
+    "visible": true,
+    "x": 1395,
+    "y": -6,
     "edge_threshold": 140,
     "orientation": "vertical"
   }
