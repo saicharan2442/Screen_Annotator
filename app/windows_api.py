@@ -193,9 +193,22 @@ class KeyboardHook:
 def vk_to_char(vk, scan, shift):
     """Translate a virtual key to its character for the active layout."""
     state = (ctypes.c_ubyte * 256)()
+    
+    # Manually construct state to avoid thread desync issues that cause all-caps
     if shift:
         state[VK_SHIFT] = 0x80
         state[VK_LSHIFT] = 0x80
+        
+    # Caps Lock (0x14 is VK_CAPITAL)
+    if _user32.GetKeyState(0x14) & 1:
+        state[0x14] = 1
+        
+    if _user32.GetAsyncKeyState(VK_CONTROL) & 0x8000:
+        state[VK_CONTROL] = 0x80
+        
+    if _user32.GetAsyncKeyState(VK_MENU) & 0x8000:
+        state[VK_MENU] = 0x80
+
     buf = ctypes.create_unicode_buffer(8)
     n = _user32.ToUnicode(vk, scan, state, buf, len(buf), 0)
     if n > 0:

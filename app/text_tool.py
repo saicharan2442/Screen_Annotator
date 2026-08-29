@@ -41,6 +41,7 @@ class TextInputSession:
             opacity=float(cfg.get("opacity", 1.0)),
         )
         self._caret_on = True
+        self._shift_down = False
         self._hook = windows_api.KeyboardHook(self._on_key)
         self._caret_timer = QTimer()
         self._caret_timer.timeout.connect(self._blink)
@@ -85,19 +86,29 @@ class TextInputSession:
         return self._caret_on
 
     def caret_region(self):
-        w, _, line_h, _ = text_metrics(self.ann)
-        lines = self.ann.text.split("\n")
-        current = lines[-1] if lines else ""
+        from .drawing import get_caret_info, text_metrics, text_font
+        pos = getattr(self, '_cursor_pos', len(self.ann.text))
+        cx_offset, line_idx = get_caret_info(self.ann, pos)
+        
+        _, _, line_h, _ = text_metrics(self.ann)
         fm = QFontMetricsF(text_font(self.ann))
-        cx = self.ann.x + fm.horizontalAdvance(current)
-        y = self.ann.y + max(0, len(lines) - 1) * line_h
+        
+        cx = self.ann.x + cx_offset
+        y = self.ann.y + line_idx * line_h
         return (cx - 1, y, cx + 3, y + fm.height())
 
     # ----------------------------------------------------------- key capture
     def _on_key(self, vk, scan, is_down):
         """Low-level hook callback. Return True to swallow the key."""
+        if vk == 0x14:  # VK_CAPITAL (Caps Lock)
+            return False  # Let Windows handle Caps Lock so its state toggles
+            
+        if vk in (windows_api.VK_SHIFT, 0xA0, 0xA1):  # 0xA0 is LSHIFT, 0xA1 is RSHIFT
+            self._shift_down = is_down
+            return True
+            
         if not is_down:
-            return True  # Swallow all key-ups while typing.
+            return True  # Swallow all other key-ups while typing.
 
         ctrl = windows_api.is_ctrl_down()
 
@@ -113,6 +124,25 @@ class TextInputSession:
         if vk == windows_api.VK_BACK:
             self._backspace()
             return True
+            
+        # Arrow keys
+        if vk == 0x25:  # Left
+            if getattr(self, '_cursor_pos', len(self.ann.text)) > 0:
+                self._cursor_pos -= 1
+                self._dirty()
+            return True
+        if vk == 0x27:  # Right
+            if getattr(self, '_cursor_pos', len(self.ann.text)) < len(self.ann.text):
+                self._cursor_pos += 1
+                self._dirty()
+            return True
+        if vk == 0x26:  # Up
+            self._move_up()
+            return True
+        if vk == 0x28:  # Down
+            self._move_down()
+            return True
+
         if ctrl and vk == ord("V"):
             self._paste()
             return True
@@ -122,7 +152,7 @@ class TextInputSession:
         if ctrl:
             return True  # Other Ctrl combos are ignored, never forwarded.
 
-        char = windows_api.vk_to_char(vk, scan, windows_api.is_shift_down())
+        char = windows_api.vk_to_char(vk, scan, getattr(self, '_shift_down', False))
         if char and all(ord(c) >= 32 for c in char):
             self._insert(char)
         return True  # Everything else is swallowed silently.
@@ -138,13 +168,48 @@ class TextInputSession:
         ))
 
     def _insert(self, text):
-        self.ann.text += text
+        pos = getattr(self, '_cursor_pos', len(self.ann.text))
+        self.ann.text = self.ann.text[:pos] + text + self.ann.text[pos:]
+        self._cursor_pos = pos + len(text)
         self._dirty()
 
     def _backspace(self):
-        if self.ann.text:
-            self.ann.text = self.ann.text[:-1]
+        pos = getattr(self, '_cursor_pos', len(self.ann.text))
+        if pos > 0:
+            self.ann.text = self.ann.text[:pos - 1] + self.ann.text[pos:]
+            self._cursor_pos = pos - 1
             self._dirty()
+
+    def _move_up(self):
+        pos = getattr(self, '_cursor_pos', len(self.ann.text))
+        if pos == 0: return
+        text = self.ann.text
+        line_start = text.rfind('\n', 0, pos) + 1
+        col = pos - line_start
+        if line_start == 0:
+            self._cursor_pos = 0
+        else:
+            prev_line_start = text.rfind('\n', 0, line_start - 1) + 1
+            prev_line_len = (line_start - 1) - prev_line_start
+            self._cursor_pos = prev_line_start + min(col, prev_line_len)
+        self._dirty()
+
+    def _move_down(self):
+        pos = getattr(self, '_cursor_pos', len(self.ann.text))
+        text = self.ann.text
+        if pos == len(text): return
+        line_start = text.rfind('\n', 0, pos) + 1
+        col = pos - line_start
+        next_line_start = text.find('\n', pos)
+        if next_line_start == -1:
+            self._cursor_pos = len(text)
+        else:
+            next_line_start += 1
+            next_line_end = text.find('\n', next_line_start)
+            if next_line_end == -1: next_line_end = len(text)
+            next_line_len = next_line_end - next_line_start
+            self._cursor_pos = next_line_start + min(col, next_line_len)
+        self._dirty()
 
     def _paste(self):
         try:

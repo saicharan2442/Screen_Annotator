@@ -7,7 +7,7 @@ from PySide6.QtGui import QColor, QFont, QFontMetricsF, QPainter, QPainterPath, 
 
 from .annotations import PenStroke, RectangleAnnotation, TextAnnotation, LineAnnotation
 
-LINE_HEIGHT_FACTOR = 1.35
+LINE_HEIGHT_FACTOR = 1.15
 
 
 def qcolor(hex_color, opacity=1.0):
@@ -25,10 +25,108 @@ def text_font(ann: TextAnnotation):
     return font
 
 
+def get_text_max_width(ann: TextAnnotation, pad=20.0):
+    from PySide6.QtWidgets import QApplication
+    from PySide6.QtCore import QPoint
+    if not QApplication.instance():
+        return 10000.0
+    screen = QApplication.screenAt(QPoint(int(ann.x), int(ann.y)))
+    if screen:
+        geo = screen.geometry()
+        return max(50.0, float(geo.right() - ann.x - pad))
+    return 10000.0
+
+
+def wrap_text_lines(ann: TextAnnotation):
+    """Returns a list of strings representing the visually wrapped lines."""
+    fm = QFontMetricsF(text_font(ann))
+    max_w = get_text_max_width(ann)
+    
+    wrapped = []
+    for paragraph in ann.text.split("\n"):
+        words = paragraph.split(" ")
+        current_line = []
+        current_w = 0.0
+        
+        for i, word in enumerate(words):
+            word_w = fm.horizontalAdvance(word + (" " if i < len(words) - 1 else ""))
+            if current_w + word_w > max_w and current_line:
+                wrapped.append(" ".join(current_line))
+                current_line = [word]
+                current_w = fm.horizontalAdvance(word + " ")
+            else:
+                current_line.append(word)
+                current_w += word_w
+                
+        if current_line:
+            wrapped.append(" ".join(current_line))
+        elif not words or words == [""]:
+            wrapped.append("")
+            
+    if not wrapped:
+        wrapped = [""]
+    return wrapped
+
+
+def get_caret_info(ann: TextAnnotation, cursor_pos: int):
+    """Returns (cx_offset, line_idx) for the given character index."""
+    fm = QFontMetricsF(text_font(ann))
+    max_w = get_text_max_width(ann)
+    
+    line_idx = 0
+    current_line = []
+    current_w = 0.0
+    char_count = 0
+    
+    for paragraph in ann.text.split("\n"):
+        words = paragraph.split(" ")
+        for i, word in enumerate(words):
+            word_str = word + (" " if i < len(words) - 1 else "")
+            word_w = fm.horizontalAdvance(word_str)
+            
+            if current_w + word_w > max_w and current_line:
+                # Wrap occurred. Did our cursor fall in the previous line?
+                if cursor_pos <= char_count:
+                    # It's somewhere in the current_line.
+                    # We just need to figure out its exact X position.
+                    pass # We will handle this below by re-evaluating current_line
+                else:
+                    line_idx += 1
+                    current_line = [word_str]
+                    current_w = fm.horizontalAdvance(word_str)
+            else:
+                current_line.append(word_str)
+                current_w += word_w
+                
+            char_count += len(word_str)
+            
+            if cursor_pos <= char_count:
+                # The cursor is inside this word (or at its end).
+                # The text before the cursor on this visually wrapped line is:
+                # Everything in current_line EXCEPT the current word, PLUS the portion of the word before cursor.
+                word_start_idx = char_count - len(word_str)
+                chars_in_word = cursor_pos - word_start_idx
+                
+                text_before = "".join(current_line[:-1]) + word_str[:chars_in_word]
+                cx = fm.horizontalAdvance(text_before)
+                return cx, line_idx
+                
+        # End of paragraph newline
+        char_count += 1
+        if cursor_pos < char_count:
+            return fm.horizontalAdvance("".join(current_line)), line_idx
+        line_idx += 1
+        current_line = []
+        current_w = 0.0
+
+    # If cursor is at the very end
+    return fm.horizontalAdvance("".join(current_line)), line_idx
+
+
 def text_metrics(ann: TextAnnotation):
     """Return (width, height, line_height, ascent) for the text block."""
     fm = QFontMetricsF(text_font(ann))
-    lines = ann.text.split("\n") or [""]
+    lines = wrap_text_lines(ann)
     width = max((fm.horizontalAdvance(line) for line in lines), default=0.0)
     line_h = fm.height() * LINE_HEIGHT_FACTOR
     return width, len(lines) * line_h, line_h, fm.ascent()
@@ -112,7 +210,7 @@ def _render_text(painter, ann: TextAnnotation):
     painter.setPen(QPen(qcolor(ann.color)))
     _, _, line_h, ascent = text_metrics(ann)
     y = ann.y
-    for line in ann.text.split("\n"):
+    for line in wrap_text_lines(ann):
         painter.drawText(QPointF(ann.x, y + ascent), line)
         y += line_h
 

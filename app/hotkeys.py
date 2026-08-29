@@ -81,6 +81,7 @@ MODE_KEYS = {
     "tool_pen": ("p", "Pen tool"),
     "tool_box": ("b", "Box tool"),
     "tool_text": ("t", "Text tool"),
+    "tool_speech": ("s", "Speech-to-text tool"),
     "tool_line": ("l", "Line tool"),
     "tool_arrow": ("a", "Arrow tool"),
     "tool_eraser": ("e", "Eraser tool"),

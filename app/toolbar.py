@@ -24,6 +24,7 @@ BUTTONS = [
     ("tool_pen", "✎", "Pen (P)"),
     ("tool_box", "□", "Box (B)"),
     ("tool_text", "T", "Text (T)"),
+    ("tool_speech", "🎤", "Speech (S)"),
     ("tool_line", "╱", "Line (L)"),
     ("tool_arrow", "↗", "Arrow (A)"),
     ("tool_eraser", "⊕", "Eraser (E)"),

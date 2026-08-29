@@ -22,6 +22,7 @@ from .move_tool import MoveTool
 from .overlay import OverlayWidget
 from .pen_tool import PenTool
 from .settings import Settings
+from .speech_tool import SpeechTool
 from .text_tool import TextTool
 from .toolbar import ToolbarWidget
 from .undo_redo import History
@@ -33,7 +34,7 @@ ACTIVE = "ACTIVE"
 TEXT_INPUT = "TEXT_INPUT"
 TOOLBAR_DRAGGING = "TOOLBAR_DRAGGING"
 
-TOOL_ORDER = ("pen", "box", "text", "eraser", "move")
+TOOL_ORDER = ("pen", "box", "text", "speech", "eraser", "move")
 
 # size ranges per tool for the wheel / menu adjustments
 SIZE_LIMITS = {
@@ -68,10 +69,12 @@ class ApplicationController(QObject):
         self.arrow_tool = ArrowTool(self)
         self.eraser_tool = EraserTool(self)
         self.move_tool = MoveTool(self)
+        self.speech_tool = SpeechTool(self)
         self.tools = {
             "pen": self.pen_tool,
             "box": self.box_tool,
             "text": self.text_tool,
+            "speech": self.speech_tool,
             "line": self.line_tool,
             "arrow": self.arrow_tool,
             "eraser": self.eraser_tool,
@@ -274,6 +277,8 @@ class ApplicationController(QObject):
         return self.tools[self.tool_name]
 
     def text_session(self):
+        if self.tool_name == "speech" and self.speech_tool._is_listening:
+            return self.speech_tool
         return self.text_tool.session
 
     def set_tool(self, name, force=False):
@@ -361,7 +366,7 @@ class ApplicationController(QObject):
     # ============================================================== styling
     def _style_section_for_tool(self, tool=None):
         tool = tool or self.tool_name
-        mapping = {"pen": "pen", "box": "box", "text": "text",
+        mapping = {"pen": "pen", "box": "box", "text": "text", "speech": "text",
                    "line": "line", "arrow": "arrow",
                    "eraser": "eraser"}
         section = mapping.get(tool, "pen")
@@ -370,13 +375,13 @@ class ApplicationController(QObject):
         return section
 
     def active_color(self):
-        key = {"pen": "pen", "box": "box", "text": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
+        key = {"pen": "pen", "box": "box", "text": "text", "speech": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
         if key is None:
             key = "pen"
         return self.settings.section(key).get("color", "#FF3B30")
 
     def set_active_color(self, hex_color=None):
-        key = {"pen": "pen", "box": "box", "text": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
+        key = {"pen": "pen", "box": "box", "text": "text", "speech": "text", "line": "line", "arrow": "arrow"}.get(self.tool_name)
         if key is None:
             return
         if hex_color is None:
@@ -410,7 +415,7 @@ class ApplicationController(QObject):
         )
 
     def active_size_key(self):
-        return {"pen": "width", "box": "border_width", "text": "size",
+        return {"pen": "width", "box": "border_width", "text": "size", "speech": "size",
                 "line": "width", "arrow": "width",
                 "eraser": "radius"}.get(self.tool_name, "width")
 
@@ -445,6 +450,7 @@ class ApplicationController(QObject):
             "tool_pen": lambda: self.set_tool("pen"),
             "tool_box": lambda: self.set_tool("box"),
             "tool_text": lambda: self.set_tool("text"),
+            "tool_speech": lambda: self.set_tool("speech"),
             "tool_line": lambda: self.set_tool("line"),
             "tool_arrow": lambda: self.set_tool("arrow"),
             "tool_eraser": lambda: self.set_tool("eraser"),
