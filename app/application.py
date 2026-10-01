@@ -11,7 +11,7 @@ import logging
 
 from PySide6.QtCore import QObject, Qt, Signal
 from PySide6.QtGui import QAction, QColor, QIcon, QPainter, QPainterPath, QPixmap, QPen
-from PySide6.QtWidgets import QApplication, QColorDialog, QMenu, QSystemTrayIcon
+from PySide6.QtWidgets import QApplication, QColorDialog, QMenu, QSystemTrayIcon, QMainWindow, QLabel, QVBoxLayout, QPushButton, QWidget
 
 from . import __version__, windows_api
 from .box_tool import BoxTool
@@ -45,6 +45,32 @@ SIZE_LIMITS = {
     "arrow": (1, 48),
     "eraser": (4, 80),
 }
+
+
+class MainWindow(QMainWindow):
+    def __init__(self, controller):
+        super().__init__()
+        self.controller = controller
+        self.setWindowTitle("Screen Annotator")
+        self.setWindowIcon(controller._make_icon())
+        self.resize(350, 150)
+        
+        layout = QVBoxLayout()
+        label = QLabel("Screen Annotator is running.\n\nShortcuts:\nCtrl+Shift+A: Annotate\nCtrl+Shift+Q: Clear & Hide\nCtrl+Shift+T: Toolbar")
+        layout.addWidget(label)
+        
+        btn_annotate = QPushButton("Annotate Now")
+        btn_annotate.clicked.connect(controller.toggle_annotate)
+        layout.addWidget(btn_annotate)
+        
+        central = QWidget()
+        central.setLayout(layout)
+        self.setCentralWidget(central)
+        
+    def closeEvent(self, event):
+        event.ignore()
+        self.hide()
+
 
 
 class ApplicationController(QObject):
@@ -97,6 +123,9 @@ class ApplicationController(QObject):
         self.hotkeys.triggered.connect(self._on_hotkey)
 
         self.tray = self._build_tray(failures)
+
+        self.main_window = MainWindow(self)
+        self.main_window.show()
 
         log.info("Screen Annotator v%s started (%d screen(s))", __version__,
                  len(QApplication.screens()))
@@ -160,6 +189,9 @@ class ApplicationController(QObject):
         tray.setToolTip("Screen Annotator - Ctrl+Shift+A to annotate")
         menu = QMenu()
 
+        act_show = QAction("Show Settings", menu)
+        act_show.triggered.connect(self.main_window.show)
+
         act_toggle = QAction("Annotate now  (Ctrl+Shift+A)", menu)
         act_toggle.triggered.connect(self.toggle_annotate)
 
@@ -169,6 +201,7 @@ class ApplicationController(QObject):
         act_quit = QAction("Quit", menu)
         act_quit.triggered.connect(self.request_quit)
 
+        menu.addAction(act_show)
         menu.addAction(act_toggle)
         menu.addAction(act_toolbar)
         menu.addSeparator()
