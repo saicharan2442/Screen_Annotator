@@ -30,7 +30,7 @@ jobs:
 
     - name: Build EXE with PyInstaller
       run: |
-        pyinstaller --noconfirm --onefile --windowed --icon="icon.ico" --name="ScreenAnnotator" "main.py"
+        pyinstaller --noconfirm --onefile --windowed --icon="icon.ico" --collect-all vosk --name="ScreenAnnotator" "main.py"
 
     - name: Upload EXE Artifact
       uses: actions/upload-artifact@v4
