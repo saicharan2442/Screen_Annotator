@@ -40,10 +40,14 @@ Quit from the tray menu; left-clicking the tray icon toggles annotation mode.
 |---|---|
 | `P` | Pen |
 | `B` | Box / rectangle |
+| `L` | Line tool |
+| `A` | Arrow tool |
 | `T` | Text (click where to type) |
+| `S` | Speech-to-text tool |
 | `E` | Eraser (removes whole objects it touches) |
-| `V` | Select / move an object (`Delete` removes selection) |
-| `C` | Clear all |
+| `V` | Select / move an object |
+| `Delete` | Delete selected object |
+| `C` | Clear all annotations |
 | `X` | Cycle colour of the active tool |
 | `[` / `]` | Decrease / increase size (mouse wheel also works) |
 | `Ctrl+Z` / `Ctrl+Y` | Undo / redo |
