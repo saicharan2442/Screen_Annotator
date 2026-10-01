@@ -1,3 +1,5 @@
 Write-Output "Building Screen Annotator executable..."
-pyinstaller --noconsole --onefile --icon=icon.ico --name ScreenAnnotator main.py
-Write-Output "Build complete! Check the 'dist' folder for ScreenAnnotator.exe"
+pyinstaller --noconsole --onedir --icon=icon.ico --exclude-module PyQt5 --exclude-module PyQt6 --name ScreenAnnotator main.py
+Write-Output "Build complete! Creating zip file..."
+Compress-Archive -Path dist\ScreenAnnotator -DestinationPath dist\ScreenAnnotator_Setup.zip -Force
+Write-Output "Zip complete! Check the 'dist' folder for ScreenAnnotator_Setup.zip"
