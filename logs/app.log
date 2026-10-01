@@ -1433,3 +1433,122 @@ AttributeError: 'TextTool' object has no attribute 'on_activate'. Did you mean: 
 2026-08-29 23:43:51 INFO    app.hotkeys: Annotation mode hotkeys enabled
 2026-08-29 23:43:52 DEBUG   app.application: Tool selected: box
 2026-08-29 23:43:54 DEBUG   app.box_tool: Box committed 822.0x110.0
+2026-08-30 11:26:01 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-30 11:26:01 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-30 11:26:01 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-30 11:26:01 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-30 11:26:02 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-30 11:26:02 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-30 11:26:06 INFO    app.application: Annotation mode ACTIVATED
+2026-08-30 11:26:06 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x20864
+2026-08-30 11:26:06 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-30 11:26:06 DEBUG   app.application: Tool selected: pen
+2026-08-30 11:26:06 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x80656
+2026-08-30 11:27:21 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-08-30 11:27:21 DEBUG   app.application: Overlays built for 1 screen(s)
+2026-08-30 11:27:21 INFO    app.hotkeys: Native hotkey event filter installed
+2026-08-30 11:27:21 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-08-30 11:27:21 INFO    app.application: Screen Annotator v1.0.0 started (1 screen(s))
+2026-08-30 11:27:21 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-08-30 11:27:23 INFO    app.application: Annotation mode ACTIVATED
+2026-08-30 11:27:23 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x30960
+2026-08-30 11:27:23 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-30 11:27:23 DEBUG   app.application: Tool selected: pen
+2026-08-30 11:27:23 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x20988
+2026-08-30 11:27:26 DEBUG   app.pen_tool: Pen stroke committed (28 points)
+2026-08-30 11:27:28 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-30 11:27:28 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-30 11:27:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:29 INFO    app.application: Annotation mode ACTIVATED
+2026-08-30 11:27:29 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x30960
+2026-08-30 11:27:29 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-08-30 11:27:29 DEBUG   app.application: Tool selected: pen
+2026-08-30 11:27:29 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x20988
+2026-08-30 11:27:30 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:30 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:30 INFO    app.application: Toolbar visibility -> False
+2026-08-30 11:27:33 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:33 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x20988
+2026-08-30 11:27:33 INFO    app.application: Toolbar visibility -> True
+2026-08-30 11:27:34 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:35 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:36 DEBUG   app.pen_tool: Pen stroke committed (42 points)
+2026-08-30 11:27:37 DEBUG   app.pen_tool: Pen stroke committed (42 points)
+2026-08-30 11:27:38 DEBUG   app.pen_tool: Pen stroke committed (26 points)
+2026-08-30 11:27:38 DEBUG   app.pen_tool: Pen stroke committed (7 points)
+2026-08-30 11:27:38 DEBUG   app.pen_tool: Pen stroke committed (24 points)
+2026-08-30 11:27:39 DEBUG   app.pen_tool: Pen stroke committed (51 points)
+2026-08-30 11:27:39 DEBUG   app.pen_tool: Pen stroke committed (11 points)
+2026-08-30 11:27:39 DEBUG   app.pen_tool: Pen stroke committed (9 points)
+2026-08-30 11:27:40 DEBUG   app.pen_tool: Pen stroke committed (30 points)
+2026-08-30 11:27:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:40 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-08-30 11:27:45 INFO    app.application: Cleared all annotations
+2026-08-30 11:27:48 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-08-30 11:27:48 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-08-30 11:27:48 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:08 INFO    app.settings: Configuration loaded from D:\screen_annotator\config.json
+2026-10-01 14:53:08 DEBUG   app.application: Overlays built for 2 screen(s)
+2026-10-01 14:53:08 INFO    app.hotkeys: Native hotkey event filter installed
+2026-10-01 14:53:08 INFO    app.hotkeys: Global hotkeys registered: ['ctrl+shift+a', 'ctrl+shift+q', 'ctrl+shift+t']
+2026-10-01 14:53:08 INFO    app.application: Screen Annotator v1.0.0 started (2 screen(s))
+2026-10-01 14:53:08 INFO    annotator: Screen Annotator v1.0.0 ready - press Ctrl+Shift+A to annotate
+2026-10-01 14:53:12 INFO    app.application: Annotation mode ACTIVATED
+2026-10-01 14:53:12 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x20e50
+2026-10-01 14:53:12 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x30e4a
+2026-10-01 14:53:12 INFO    app.hotkeys: Annotation mode hotkeys enabled
+2026-10-01 14:53:12 DEBUG   app.application: Tool selected: pen
+2026-10-01 14:53:12 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x803d2
+2026-10-01 14:53:16 DEBUG   app.pen_tool: Pen stroke committed (51 points)
+2026-10-01 14:53:16 DEBUG   app.pen_tool: Pen stroke committed (9 points)
+2026-10-01 14:53:20 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:20 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:20 INFO    app.application: Toolbar visibility -> False
+2026-10-01 14:53:28 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:28 DEBUG   app.windows_api: Applied NOACTIVATE style to hwnd=0x803d2
+2026-10-01 14:53:28 INFO    app.application: Toolbar visibility -> True
+2026-10-01 14:53:35 DEBUG   app.application: Tool selected: box
+2026-10-01 14:53:36 DEBUG   app.box_tool: Box committed 349.3333333333333x90.66666666666666
+2026-10-01 14:53:37 DEBUG   app.box_tool: Box committed 10.666666666666629x273.3333333333333
+2026-10-01 14:53:37 DEBUG   app.box_tool: Box committed 464.0x345.3333333333333
+2026-10-01 14:53:38 INFO    app.windows_api: Low-level keyboard hook installed
+2026-10-01 14:53:38 DEBUG   app.application: Tool selected: speech
+2026-10-01 14:53:38 INFO    app.speech_tool: Loading Vosk model (will download if missing)...
+2026-10-01 14:53:39 INFO    app.speech_tool: Speech recognition started listening...
+2026-10-01 14:53:39 INFO    app.speech_tool: Speech session finished successfully
+2026-10-01 14:53:39 INFO    app.speech_tool: Speech recognition started listening...
+2026-10-01 14:53:48 INFO    app.windows_api: Low-level keyboard hook removed
+2026-10-01 14:53:48 INFO    app.speech_tool: Speech session cancelled
+2026-10-01 14:53:48 DEBUG   app.application: Tool selected: pen
+2026-10-01 14:53:48 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-10-01 14:53:49 DEBUG   app.pen_tool: Pen stroke committed (28 points)
+2026-10-01 14:53:50 DEBUG   app.pen_tool: Pen stroke committed (54 points)
+2026-10-01 14:53:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:52 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:53:56 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-10-01 14:53:59 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-10-01 14:54:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:54:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:54:02 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json
+2026-10-01 14:54:03 DEBUG   app.pen_tool: Pen stroke committed (1 points)
+2026-10-01 14:54:04 INFO    app.application: Cleared all annotations
+2026-10-01 14:54:05 DEBUG   app.application: Tool selected: line
+2026-10-01 14:54:05 INFO    app.windows_api: Low-level keyboard hook installed
+2026-10-01 14:54:05 DEBUG   app.application: Tool selected: speech
+2026-10-01 14:54:10 INFO    app.application: Annotation mode DEACTIVATED - clearing everything
+2026-10-01 14:54:10 INFO    app.hotkeys: Annotation mode hotkeys released
+2026-10-01 14:54:10 INFO    app.windows_api: Low-level keyboard hook removed
+2026-10-01 14:54:10 DEBUG   app.settings: Configuration saved to D:\screen_annotator\config.json

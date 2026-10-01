@@ -16,7 +16,7 @@
   ],
   "pen": {
     "color": "#FF9500",
-    "width": 8,
+    "width": 1,
     "opacity": 1.0
   },
   "box": {
@@ -49,8 +49,8 @@
   },
   "toolbar": {
     "visible": true,
-    "x": 1225,
-    "y": 135,
+    "x": 1414,
+    "y": -56,
     "edge_threshold": 140,
     "orientation": "vertical"
   }
