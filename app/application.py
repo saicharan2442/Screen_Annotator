@@ -122,10 +122,10 @@ class ApplicationController(QObject):
         )
         self.hotkeys.triggered.connect(self._on_hotkey)
 
-        self.tray = self._build_tray(failures)
-
         self.main_window = MainWindow(self)
         self.main_window.show()
+
+        self.tray = self._build_tray(failures)
 
         log.info("Screen Annotator v%s started (%d screen(s))", __version__,
                  len(QApplication.screens()))
